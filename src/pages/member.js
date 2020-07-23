@@ -55,6 +55,7 @@ const AboutPage = ({ data }, location) => {
           <p>
             専門分野：建築計画<br></br>
             建築設計を新しい技術で楽にしたり飛躍させたりして生きていきたい
+            Twitter:[コンソメ(@consomme__)](https://twitter.com/consomme__)
           </p>
 
           <figure className="kg-card kg-image-card kg-width-full">
