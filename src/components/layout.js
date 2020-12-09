@@ -35,6 +35,9 @@ const Layout = props => {
               <li className="nav-member" role="menuitem">
                 <Link to={`/member`}>Member</Link>
               </li>
+              <li className="nav-member" role="menuitem">
+                <Link to={`/member`}>10-Kei</Link>
+              </li>
               {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
               </li> */}
