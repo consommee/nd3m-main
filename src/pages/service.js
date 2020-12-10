@@ -25,18 +25,19 @@ const ServicePage = ({ data }, location) => {
               fluid={data.tenkeilogo.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Regular image</figcaption>
           </figure>
           <h3 id="heading-level-3">
-            世界にたった1つの模型に、世界でたった1つの人物添景を。<br></br>
-            あなたの模型にふさわしく、あなたが描くストーリーに沿った人物をお届けします。
-          </h3>
+            世界にたった1つの模型に、<br></br>
+	        世界でたった1つの人物添景を。<br></br><br></br>
+            あなたの模型にふさわしく、<br></br>
+	        あなたが描くストーリーに沿った人物をお届けします。
+          </h3><br></br>
           <h2 id="heading-level-2">サービス概要</h2>
           <p>
             卒業設計やコンペでの模型製作の中で<br></br>
             「小学校で遊ぶ子供たちの添景が欲しい」「住宅の中での様々な動きに適した添景が欲しい」などなど…思ったことはありませんか？
             <br></br>
-            10-keiはそんなあなたの願いを叶えるオリジナル添景作成サービスです。
+            <font color="FF9900">10-keiはそんなあなたの願いを叶えるオリジナル添景作成サービスです。</font>
             <br></br>
             <br></br>
             このサービスを利用するための手順はたったの
@@ -47,66 +48,60 @@ const ServicePage = ({ data }, location) => {
           </p>
           　　
           <dl>
-            <dt>1. 作りたい添景のポーズを決めて360度さまざまな方向から撮影</dt>
-            <dd>
-              <p>
-                <figure className="kg-card kg-image-card">
-                  <Img
-                    fluid={data.step1photograph.childImageSharp.fluid}
-                    className="kg-image"
-                  />
-                  <figcaption>Regular image</figcaption>
-                </figure>
-              </p>
+	        <dd>
+				<figure className="kg-card kg-image-card">
+				  <dt><u>1. 作りたい添景のポーズを決めて360度さまざまな方向から撮影</u></dt>
+				  <Img
+					fluid={data.step1photograph.childImageSharp.fluid}
+					className="kg-image"
+				  />
+				</figure>
             </dd>
-            <dt>2. データをアップロードし制作を依頼</dt>
+            
             <dd>
-              <p>
                 <figure className="kg-card kg-image-card">
+	  			<dt><u>2. データをアップロードし制作を依頼</u></dt>
                   <Img
                     fluid={data.step2upload.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
                 </figure>
-              </p>
             </dd>
-            <dt>3. 3Dモデルになったデータを確認</dt>
+            
             <dd>
-              <p>
                 <figure className="kg-card kg-image-card">
+	  			<dt><u>3. 3Dモデルになったデータを確認</u></dt>
                   <Img
                     fluid={data.step33dmodel.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
                 </figure>
-              </p>
             </dd>
-            <dt>4. 自宅に添景が届く</dt>
-            　　　　{" "}
+            
             <dd>
-              <p>
                 <figure className="kg-card kg-image-card">
+	  			<dt><u>4. 自宅に添景が届く</u></dt>
                   <Img
                     fluid={data.step4reach.childImageSharp.fluid}
                     className="kg-image"
                   />
-                  <figcaption>Regular image</figcaption>
                 </figure>
-              </p>
             </dd>
-            　　
           </dl>
+	 
+	  
           <h3 id="heading-level-3">
-            あなたが模型で表現したいシーンを創るお手伝いをします。
+            <font color="FF9900">あなたが模型で表現したいシーン<br></br>を創るお手伝いをします。</font>
           </h3>
           <h2 id="heading-level-2">どうやって作ってるの？</h2>
           <p>
-            アップロードされたデータを元にフォトグラメトリを行い3Dモデルを作成し、3Dプリンターで出力します。
+            アップロードされたデータを元に複数の画像から3Dモデルを生成する技術、フォトグラメトリを行います。<br></br>
+	  		そうして生成した3Dモデルを3Dプリンターで出力しています。
           </p>
           <h2 id="heading-level-2">サービス開始時期</h2>
-          <p>2021年1月上旬を予定</p>
+          <p>2021年1月上旬を予定しています。</p>
+	      <h2 id="heading-level-2">Contact</h2>
+          <p>サービスについてのお問い合わせは右上のTwitterのDMから受付してます。</p>
           {/* <p>
             Both post and page templates are light and minimal, with all the
             focus on the content while the design of the theme gets out of the
